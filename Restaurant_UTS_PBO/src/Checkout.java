@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class Checkout {
-    static float totalOmset = Appetizer.harga;
-    static float totalBiayaProduksi = 0.25f * Appetizer.harga;
+    static float totalOmset = Appetizer.harga + MainCourse.harga + Dessert.harga;
+    static float totalBiayaProduksi = 0.25f * totalOmset;
     static float gajiKaryawan = 0.5f * totalBiayaProduksi;
     static float pajak = 0.1f * totalOmset;
-    static float totalKeuntungan = (totalOmset - totalBiayaProduksi) - pajak - gajiKaryawan;
+    static float totalKeuntungan = totalOmset - totalBiayaProduksi - pajak - gajiKaryawan;
 public Checkout(){
     System.out.println("Total Omset Penjualan: " + totalOmset);
     System.out.println("Gaji Karyawan dan Biaya Fasilitas Pendukung: " + gajiKaryawan);
