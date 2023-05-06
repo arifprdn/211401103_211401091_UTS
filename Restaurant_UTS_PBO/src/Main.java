@@ -13,7 +13,6 @@ public class Main {
                 new Order();
                 break;
             case 2: new Checkout();
-
                 break;
             case 3: new Show();
                 break;
