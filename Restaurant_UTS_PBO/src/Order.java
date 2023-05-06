@@ -18,11 +18,13 @@ public class Order {
                 System.out.flush();
                 MainCourse maincourse = new MainCourse();
                 maincourse.Show();
+                maincourse.Menu();
                 break;
             case 3:
                 System.out.flush();
                 Dessert dessert = new Dessert();
                 dessert.Show();
+                dessert.Menu();
                 break;
             case 4:
                 Main.Menu();
