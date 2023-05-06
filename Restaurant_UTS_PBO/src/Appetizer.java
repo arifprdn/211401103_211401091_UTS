@@ -30,11 +30,11 @@ public class Appetizer{
     }
     
     //Harga Modal
-    int salad = 20000;
-    int canape = 24000;
-    int pudding = 16000;
-    int gorengan = 12000;
-    int dimsum = 28000;
+    int salad = 30000;
+    int canape = 35000;
+    int pudding = 30000;
+    int gorengan = 28000;
+    int dimsum = 40000;
             
     int[] biayaProduksi = new int[] {salad,canape,pudding,gorengan,dimsum};
     public void Menu(){
